@@ -7,7 +7,7 @@ import bs58 from "bs58";
 
     console.log(decoded);
 
-    const encoded = bs58.encode(PRIVATE_KEY);
+    const encoded = bs58.encode(decoded);
 
     console.log(encoded);
 
